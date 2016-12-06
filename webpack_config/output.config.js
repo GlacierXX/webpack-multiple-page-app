@@ -12,7 +12,7 @@ let PUBLIC_PATH = '../';
 if (ARGV.indexOf(PRODUCTION) > -1) {
     BUILD_PATH = path.resolve(__dirname, '../build-production');
     // 配置生产CND路径
-    PUBLIC_PATH = '';
+    PUBLIC_PATH = '../';
 }
 
 export default {
